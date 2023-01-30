@@ -7,7 +7,7 @@ const dataSchema = new mongoose.Schema({
   },
   telefone: {
     required: true,
-    type: Number,
+    type: String,
   },
   email: {
     required: true,
